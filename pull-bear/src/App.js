@@ -1,19 +1,19 @@
-
-function App() {
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Men from './Pages/Men/Men'
+import Women from './Pages/Women/Women'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          
-        </a>
-      </header>
+    <div>
+       <BrowserRouter>
+        <Routes>
+          <Route index path='/men' element={<Men/>}/>
+          <Route index path='/women' element={<Women/>}/>
+        </Routes>
+    </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
