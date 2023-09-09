@@ -1,23 +1,47 @@
 .navbar{
     background-image: url("https://static.pullandbear.net/2/cms/assets/uploads/contenido1_14.jpg?imwidth=1400&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230909020205");
+    background-size: cover;
+    background-repeat: no-repeat;
     .top-left{
+        display: flex;
+        margin-left: -50px;
         padding-top: 20px;
         a{
             text-decoration: none;
             display: flex;
+            font-family: Graphik,Arial,sans-serif;
         }
         p{
             color: #aaaaaa;
+            font-size: 1.085rem;     
+            font-weight: 650;   
         }
         span{
+            margin-top: -5px;
             color: white;
             font-size: 1.5rem;
             padding-left: 7px;
             padding-right: 7px;
         }
         h5{
-            font-size: 1.1rem;
+            padding-top: 3px;
+            font-size: 1.085rem;
             color: #fff;
+            font-weight: 650;
+        }
+    }
+    .left{
+        margin-left: -50px;
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: 650;
+            font-size: 1.8rem;
+            font-family: Graphik,Arial,sans-serif;
+        }
+        .second{
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
     }
 }
