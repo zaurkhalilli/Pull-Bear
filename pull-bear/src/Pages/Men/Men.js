@@ -6,7 +6,7 @@ const Men = () => {
   return (
     <div>
         <Layout>
-          <Navbar/>
+          
         </Layout>
     </div>
   )
