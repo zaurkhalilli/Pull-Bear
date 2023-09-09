@@ -4,7 +4,17 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar'>
-     <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+    <div className="container">
+      <div className="row">
+        <div className="col-xl-4">
+        <div className="top-left">
+     <a href=""> <p>WOMAN</p> <span>I</span> <h5>Man</h5></a>
+     </div>
+        </div>
+        <div className="col-xl-4"></div>
+        <div className="col-xl-4"></div>
+      </div>
+    </div>
     </div>
   )
 }

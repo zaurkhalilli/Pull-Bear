@@ -1,3 +1,23 @@
 .navbar{
     background-image: url("https://static.pullandbear.net/2/cms/assets/uploads/contenido1_14.jpg?imwidth=1400&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230909020205");
+    .top-left{
+        padding-top: 20px;
+        a{
+            text-decoration: none;
+            display: flex;
+        }
+        p{
+            color: #aaaaaa;
+        }
+        span{
+            color: white;
+            font-size: 1.5rem;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+        h5{
+            font-size: 1.1rem;
+            color: #fff;
+        }
+    }
 }
