@@ -3,7 +3,7 @@ import styled from "../Navbar/Navbar.scss"
 const Navbar = () => {
   return (
     <div>
-      
+      lorem21081
     </div>
   )
 }
