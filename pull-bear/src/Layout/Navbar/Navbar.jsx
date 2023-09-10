@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className='navbar'>
     <div className="container">
       <div className="row">
-        <div className="col-xl-6">
+        <div className="col-xl-5">
         <div className="top-left">
          <a href=""> <p>WOMAN</p> <span>I</span></a>
          <a href=""><h5>MAN</h5></a>
@@ -38,17 +38,17 @@ const Navbar = () => {
          <h1>PULL&BEAR</h1>
          </div>
          <div className="new">
-          <p>NEW IN</p>
+         <p>NEW IN</p>
          <div className="newbtn">
          <button>SHOP</button>
          </div>
          </div>
         </div>
-        <div className="col-xl-2">
+        <div className="col-xl-3">
         <div className="inputleft">
         <BiSearch color='white' size={20}/> 
-         <input type="text" placeholder='SEARCH'/> 
-         <FiUser color='white' size={20}/>
+        <input type="text" placeholder='SEARCH'/> 
+        <a href=""><FiUser color='white' size={20}/></a>
         </div>
         </div>
       </div>
