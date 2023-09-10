@@ -31,7 +31,11 @@ const Navbar = () => {
       </div>
      </div>
         </div>
-        <div className="col-xl-4"></div>
+        <div className="col-xl-4">
+         <div className="name">
+         <h1>PULL&BEAR</h1>
+         </div>
+        </div>
         <div className="col-xl-2"></div>
       </div>
     </div>
