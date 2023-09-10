@@ -86,8 +86,11 @@
             border-right: none;
             border-left: none;
             outline: none;
-           
+            color: #fff;
             border-bottom: 1px solid #fff;
+        }
+        ::placeholder{
+            color: #fff;
         }
     }
 }
