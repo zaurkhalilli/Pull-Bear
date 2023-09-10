@@ -35,6 +35,10 @@ const Navbar = () => {
          <div className="name">
          <h1>PULL&BEAR</h1>
          </div>
+         <div className="new">
+          <p>NEW IN</p>
+          <button>SHOP</button>
+         </div>
         </div>
         <div className="col-xl-2"></div>
       </div>
