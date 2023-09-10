@@ -79,4 +79,15 @@
             }
         }
     }
+    .inputleft{
+        input{
+            background-color: #343434;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            outline: none;
+           
+            border-bottom: 1px solid #fff;
+        }
+    }
 }
