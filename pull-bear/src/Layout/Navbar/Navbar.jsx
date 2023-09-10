@@ -37,10 +37,14 @@ const Navbar = () => {
          </div>
          <div className="new">
           <p>NEW IN</p>
-          <button>SHOP</button>
+         <div className="newbtn">
+         <button>SHOP</button>
+         </div>
          </div>
         </div>
-        <div className="col-xl-2"></div>
+        <div className="col-xl-2">
+          
+        </div>
       </div>
     </div>
     </div>
