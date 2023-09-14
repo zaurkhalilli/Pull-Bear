@@ -10,15 +10,23 @@
     }
   }
   .jeansfit{
+    padding-top: 30px;
     text-align: center;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 450px;
     a{
         text-decoration: none;
         color: #476ac7;
+        font-weight: 640;
         span{
-            font-size: 2rem;
+            font-weight: 650;
+            font-size: 2.5rem;
         }
+    }
+    button{
+        background-color: #ededed;
+        color: #476ac7;
+        border: 1px solid #476ac7;
     }
   }
 }
