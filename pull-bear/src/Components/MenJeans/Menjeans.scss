@@ -1,6 +1,5 @@
 .jeans{
     padding-top: 40px;
-   
     background-color: #ededed;
   .jeansimages{
     display: flex;
@@ -8,6 +7,18 @@
         padding-left: 30px;
         width: 290px;
         object-fit: cover;
+    }
+  }
+  .jeansfit{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    a{
+        text-decoration: none;
+        color: #476ac7;
+        span{
+            font-size: 2rem;
+        }
     }
   }
 }

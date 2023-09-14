@@ -23,8 +23,10 @@ const Menjeans = () => {
            <div className="jeansfit">
             <a href="">
               <span>JEANS FIT GUIDE</span>
+              <br />
               Where you hold the power to select from the most iconic jeans fits of the season. Your style, your choice. Explore our curated fits range.
             </a>
+            <br />
             <button>SEE ALL</button>
            </div>
     </div>
