@@ -5,10 +5,10 @@ const Menjeans = () => {
     <div className='jeans'>
            <div className="jeansimages">
            <div className="images">
-            <img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Baggy_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" />
+           <a href=""> <img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Baggy_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
             </div>
             <div className="images">
-            <img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Relaxed_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" />
+            <a href=""><img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Relaxed_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
             </div>
             <div className="images">
             <img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Slim_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" />
