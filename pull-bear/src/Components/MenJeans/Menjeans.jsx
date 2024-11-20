@@ -5,6 +5,7 @@ const Menjeans = () => {
     <div className='jeans'>
       <div className="container">
         <div className="row g-5">
+          
           <div className="col-xl-3">
           <div className="images">
           <a href=""> <img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Baggy_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
