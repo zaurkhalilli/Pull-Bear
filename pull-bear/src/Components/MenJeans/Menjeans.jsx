@@ -3,23 +3,30 @@ import styled from "../MenJeans/Menjeans.scss"
 const Menjeans = () => {
   return (
     <div className='jeans'>
-           <div className="jeansimages">
-           <div className="images">
-           <a href=""> <img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Baggy_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
-            </div>
-            <div className="images">
-            <a href=""><img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Relaxed_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
-            </div>
-            <div className="images">
-            <a href=""><img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Slim_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
-            </div>
-            <div className="images">
-            <a href=""><img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Skinny_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
-            </div>
-            <div className="images">
-            <a href=""> <img src="https://static.pullandbear.net/2/photos//2023/I/0/2/p/4684/511/427/03/4684511427_6_1_8.jpg?t=1693225203495&imwidth=750" alt="" /></a>
-            </div>
-           </div>
+      <div className="container">
+        <div className="row g-5">
+          <div className="col-xl-3">
+          <div className="images">
+          <a href=""> <img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Baggy_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
+          </div>
+          </div>
+          <div className="col-xl-3">
+          <div className="images">
+          <a href=""><img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Relaxed_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
+          </div>
+          </div>
+          <div className="col-xl-3">
+          <div className="images">
+          <a href=""><img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Slim_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
+          </div>
+          </div>
+          <div className="col-xl-3">
+          <div className="images">
+          <a href=""><img src="https://static.pullandbear.net/2/cms/assets/uploads/2X2Skinny_1.jpg?imwidth=300&impolicy=pullandbear-itxmediumhigh&imformat=chrome&ts=20230913021705" alt="" /></a>
+          </div>
+          </div>
+        </div>
+      </div>
            <div className="jeansfit">
             <a href="">
               <span>JEANS FIT GUIDE</span>
