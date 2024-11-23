@@ -51,6 +51,11 @@ const Navbar = () => {
         <button>SEARCH</button>
         </form>
         </div>
+        <div className="search-results">
+          <div className="search-result">
+          <img src="https://static.pullandbear.net/assets/public/2bea/b2c2/c64a4fe5aa23/05cfff70bc00/07590554501-D2/07590554501-D2.jpg?ts=1732014953087&w=603&f=auto" alt="" />
+          </div>
+        </div>
         </div>
       </div>
     </div>
