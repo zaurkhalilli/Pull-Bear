@@ -46,9 +46,10 @@ const Navbar = () => {
         </div>
         <div className="col-xl-3">
         <div className="inputleft">
-        <BiSearch color='white' size={20}/> 
-        <input type="text" placeholder='SEARCH'/> 
-        <a href=""><FiUser color='white' size={20}/></a>
+        <form action="">
+        <input type="text" placeholder='Search by type'/> 
+        <button>SEARCH</button>
+        </form>
         </div>
         </div>
       </div>
